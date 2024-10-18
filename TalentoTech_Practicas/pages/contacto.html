@@ -35,10 +35,31 @@
             <input type="number" id="" name="">
             <label for="">Correo Electronico</label>
             <input type="mail" id="" required><br>
+            Contraseña: <input type="password" id="" name=""> 
+            Repetir Contraseña: <input type="password" id="" name=""><br>  
+            <br>
             <label for="">Adjuntar Foto</label>
-            <input type="file" name="" id="">
-            
-        </fieldset>
+            <input type="file" name="" id="">   
+        </fieldset><br><br>
+        <label for="comentarios">Comentarios</label><br>
+        <textarea name="comentarios" id="" cols="30" rows="10" placeholder="Escribir su Consulta"></textarea>
+        <br><br>
+        <label for="cp">Conocimientos Previos</label><br>
+        <input type="checkbox" name="cp" id="" value="1"> HTML
+        <input type="checkbox" name="cp" id="" value="2"> CSS
+        <input type="checkbox" name="cp" id="" value="3"> JavaScript
+        <input type="checkbox" name="cp" id="" value="4"> Ninguno
+        <br><br>
+        <label for="residencia"></label>Zona de Residencia <br>
+        <input type="radio" name="residencia" id="" value="1"> CABA
+        <input type="radio" name="residencia" id="" value="2"> Gran Bs. As.
+        <input type="radio" name="residencia" id="" value="3"> Provincia Bs. As.
+        <input type="radio" name="residencia" id="" value="4"> Interior del Pais 
+        <br><br>
+        <input type="checkbox" name="condiciones" id="" required>
+        Acepto los términos y condiciones <br><br>
+        <input type="submit" value="Enviar Datos">
+        <input type="reset" value="Borrar Datos">
     </form>
 </body>
 </html>
